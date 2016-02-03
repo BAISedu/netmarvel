@@ -21,11 +21,12 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="/badminton/">Badminton</a></li>
+                    <li><a href="/basketball/">Basketball</a></li>
+                    <li><a href="/bob/">BoB</a></li>
+                    <li><a href="/cross-country/">Cross Country</a></li>
+                    <li><a href="/soccer/">Soccer</a></li>
+                    <li><a href="/swim/">Swim</a></li>
                     </ul>
                 </div>
             </div>
