@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/basketball/', function() {
+    return view('basketball-home', ['year' => date('Y')]);
+}); 
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
