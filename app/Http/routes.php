@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/crosscountry /', function () {
+    return view('crosscountry-home');
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
