@@ -1,2 +1,15 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$brand-primary:         #18266a !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
 
+$jumbotron-bg:          $brand-primary !default;
+$jumbotron-color:       white !default;
+
+
+$navbar-default-color:  #f8f8f8 !default;
+$navbar-default-bg:     lighten($brand-primary, 30%) !default;
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
