@@ -15,9 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/bob/', function() {
     return view('bob-home');
+});
+
+Route::get('/crosscountry /', function () {
+    return view('crosscountry-home');
 });
 
 /*
