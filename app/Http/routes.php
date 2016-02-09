@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/swim/', function () {
+    return view('swim-home');
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
