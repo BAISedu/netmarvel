@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/badminton/', function () {
+    return view('badminton-home');
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
