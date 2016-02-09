@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/soccer/', function() {
+    return view('soccer-home');
+});
+
+Route::get('/soccer/login/', function() {
+    return view('soccer-login');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
