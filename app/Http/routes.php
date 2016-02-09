@@ -19,6 +19,9 @@ Route::get('/swim/', function () {
     return view('swim-home');
 });
 
+Route::get('/crosscountry /', function () {
+    return view('crosscountry-home');
+});
 
 /*
 |--------------------------------------------------------------------------
