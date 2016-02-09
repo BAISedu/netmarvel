@@ -23,6 +23,18 @@ Route::get('/soccer/login/', function() {
     return view('soccer-login');
 });
 
+Route::get('/badminton/', function () {
+    return view('badminton-home');
+});
+
+Route::get('/swim/', function () {
+    return view('swim-home');
+});
+
+Route::get('/crosscountry /', function () {
+    return view('crosscountry-home');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
