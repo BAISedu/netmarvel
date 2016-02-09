@@ -18,6 +18,15 @@ Route::get('/', function () {
 Route::get('/badminton/', function () {
     return view('badminton-home');
 });
+
+Route::get('/swim/', function () {
+    return view('swim-home');
+});
+
+Route::get('/crosscountry /', function () {
+    return view('crosscountry-home');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
