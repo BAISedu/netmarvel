@@ -15,9 +15,30 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/soccer/', function() {
+    return view('soccer-home');
+});
+
+Route::get('/soccer/login/', function() {
+    return view('soccer-login');
+});
+
+Route::get('/badminton/', function () {
+    return view('badminton-home');
+});
+
+Route::get('/swim/', function () {
+    return view('swim-home');
+});
+
+Route::get('/swim/event-detail/', function () {
+    return view('swim-event-detail');
+});
+
 Route::get('/crosscountry /', function () {
     return view('crosscountry-home');
 });
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
