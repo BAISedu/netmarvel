@@ -36,6 +36,10 @@ Route::get('/swim/', function () {
     return view('swim-home');
 });
 
+Route::get('/swim/event-detail/', function () {
+    return view('swim-event-detail');
+});
+
 Route::get('/crosscountry /', function () {
     return view('crosscountry-home');
 });
