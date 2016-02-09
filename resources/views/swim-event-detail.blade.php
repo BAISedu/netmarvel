@@ -3,7 +3,7 @@
 @section('content')
 <div class="content">
     <div class="title"><h1>Swim</h1></div>
-    <h2>Program Management</h2>
+    <h2>Event Details</h2>
     <div class="container-fluid">
         <div class="row">
             <div class="table-responsive">
@@ -45,4 +45,4 @@
         </div>
     </div>
 </div>
-@endsection
+@
