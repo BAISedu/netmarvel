@@ -5,6 +5,7 @@
     <div class="title"><h1>Swim</h1></div>
     <h2>Program Management</h2>
     <div class="container-fluid">
+            <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span>&nbsp; Search</button>
         <div class="row">
             <div class="table-responsive">
             <table class="table table-striped">
@@ -20,21 +21,21 @@
             <tbody>
             <tr>
             <td>PID#</td>
-            <td>IISSAC Swim Meet Preliminary</td>
-            <td><a href="#">Bandung Allience Intercultural School</a></td>
+            <td><a href="#">IISSAC Swim Meet Preliminary</td>
+            <td>Bandung Allience Intercultural School</a></td>
             <td>yy-mm-dd</td>
             <td>yy-mm-dd</td>
             </tr>
             <tr>
             <td>PID#</td>
-            <td>IISSAC Swim Meet 2015</td>
+            <td><a href="#">IISSAC Swim Meet 2016</td>
             <td>Bandung Allience Intercultural School</td>
             <td>yy-mm-dd</td>
             <td>yy-mm-dd</td>
             </tr>
             <tr>
             <td>PID#</td>
-            <td>Programme</td>
+            <td><a href="#">Programme</td>
             <td>Bandung Allience Intercultural School</td>
             <td>yy-mm-dd</td>
             <td>yy-mm-dd</td>
@@ -42,6 +43,11 @@
             </tbody>
             </table>
             </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-default"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp; Add Program</button>
+            <button class="btn btn-default"><span class="glyphicon glyphicon-floppy-save"></span>&nbsp; Save</button>
+            <button class="btn btn-default"><span class="glyphicon glyphicon-print"></span>&nbsp; Print</button>
         </div>
     </div>
 </div>
