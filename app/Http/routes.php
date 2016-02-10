@@ -23,6 +23,10 @@ Route::get('/soccer/login/', function() {
     return view('soccer-login');
 });
 
+Route::get('/soccer/homepage/', function() {
+    return view('soccer-homepage');
+});
+
 Route::get('/badminton/', function () {
     return view('badminton-home');
 });
