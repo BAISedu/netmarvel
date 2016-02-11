@@ -5,27 +5,14 @@
         <div class="title">Basketball {{ $year }}</div>
         @include('layouts.bb-nav')
     </div>
-    <h3>asl;jjdfhlajjdfhljlshdfkjhddfkljshdhffkjhsddfkjjasddkjfjssddvvbevuoweoobbvjjbbsdoiufuhwefoudsdkvjjasdkjjvbv;ajjsdhffkjadhskhbhvoubadhflkajsdhfkjjashdfkjbwfbweeoiuvjb;qwjjbbfbou'qkjbf
-    sakjdfhiuwqbkjbv
-    fkjasdfhouuwb
-    sdbvvwiugefgfousdh
-    wejkbfiuBDWVW
-    nqlwughfiuwbbgfq
-    wdljfbiwuegfq
-    qwdjfaisudgfga
-    gjabriugbawjknnv
-    ajdvbiuwghefg
-    adbiubwiruvbrw
-    avbiwbvuoqwhhgg
-    aksjjbviwuevvouw
-    ajbviuowbevuwbv
-    absvwuvuvbbv
-    skkdjbvv;iiwbvouabbv
-    swbjv;ioiawu;uba
-    w;;kvnhwbvuiyas
-    asvlkhkasbddviabv
-
-    asddkvvhhbaivbwiuvv
-    askdvbbivbiuwref
-    </h3>
+    <div class="row">
+        <div class="col-sm-8"></div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1">
+            <button type="button" class="btn btn-info">New Event</button>
+        </div> 
+        <div class="col-sm-1">
+            <button type="button" class="btn btn-info">Edit Event</button>
+        </div>
+    </div>
 @endsection

@@ -15,11 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
+ 
 Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
 }); 
-=======
+
 Route::get('/soccer/', function() {
     return view('soccer-home');
 });
@@ -43,7 +43,7 @@ Route::get('/swim/event-detail/', function () {
 Route::get('/crosscountry /', function () {
     return view('crosscountry-home');
 });
->>>>>>> 8c2d67720bce895afa24a381182655db23dc8677
+
 
 /*
 |--------------------------------------------------------------------------
