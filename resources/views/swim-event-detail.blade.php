@@ -2,8 +2,8 @@
 @section('title', 'Welcome to Swim!')
 @section('content')
 <div class="content">
-    <div class="title"><h1>Swim</h1></div>
-    <h2>Event Details</h2>
+    <div class="title"><h1>Swimming Programs</h1></div>
+    <h2>Detail</h2>
     <div class="container-fluid">
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
@@ -27,18 +27,109 @@
                                     <th>Place</th>
                                 </tr>
                             </thead>
-                            <thead>
+                            <tbody>
                                 <tr>
-                                    <th>Heat 1</th>
+                                    <td colspan="10" style = "background-color: #555; color: #ffffff; text-align: center">HEAT 1</td>
                                 </tr>
-                            </thead>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>Amudhan W. Ramappa</td>
+                                    <td>Internatoinal School in India</td>
+                                    <td>NT</td>
+                                    <td>Minute:Second:Millisecond</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>Amudhan W. Ramappa</td>
+                                    <td>Internatoinal School in India</td>
+                                    <td>NT</td>
+                                    <td>Minute:Second:Millisecond</td>
+                                    <td>2</td>
+                                </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>Amudhan W. Ramappa</td>
+                                    <td>Internatoinal School in India</td>
+                                    <td>NT</td>
+                                    <td>Minute:Second:Millisecond</td>
+                                    <td>3</td>
+                                </tr>
+                           </tbody>
                         </table>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+     <div class="container-fluid">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Event 02
+                    </a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <!-- table content goes in here -->
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Lane</th>
+                                    <th>Heat</th>
+                                    <th>Name</th>
+                                    <th>Team</th>
+                                    <th>Sub.Time</th>
+                                    <th>Time(mm:ss:ms)</th>
+                                    <th>Place</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="10" style = "background-color: #555; color: #ffffff; text-align: center">HEAT 1</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>Amudhan W. Ramappa</td>
+                                    <td>Internatoinal School in India</td>
+                                    <td>NT</td>
+                                    <td>Minute:Second:Millisecond</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>Amudhan W. Ramappa</td>
+                                    <td>Internatoinal School in India</td>
+                                    <td>NT</td>
+                                    <td>Minute:Second:Millisecond</td>
+                                    <td>2</td>
+                                </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>Amudhan W. Ramappa</td>
+                                    <td>Internatoinal School in India</td>
+                                    <td>NT</td>
+                                    <td>Minute:Second:Millisecond</td>
+                                    <td>3</td>
+                                </tr>
+                           </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>    
+      </div>     
+    </div>
 </div>
 <script type="text/javascript">
+
 </script>
 @endsection
