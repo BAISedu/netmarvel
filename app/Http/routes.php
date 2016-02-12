@@ -39,6 +39,10 @@ Route::get('/badminton/', function () {
     return view('badminton-home');
 });
 
+Route::get('/badminton/player-management/', function () {
+    return view('badminton-player-management');
+});
+
 Route::get('/swim/', function () {
     return view('swim-home');
 });
