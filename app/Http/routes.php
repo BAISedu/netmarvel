@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/bob/', function() {
     return view('bob-home');
 }); 
@@ -40,6 +39,10 @@ Route::get('/badminton/', function () {
     return view('badminton-home');
 });
 
+Route::get('/badminton/player-management/', function () {
+    return view('badminton-player-management');
+});
+
 Route::get('/swim/', function () {
     return view('swim-home');
 });
@@ -48,7 +51,7 @@ Route::get('/swim/event-detail/', function () {
     return view('swim-event-detail');
 });
 
-Route::get('/crosscountry /', function () {
+Route::get('/cross-country /', function () {
     return view('crosscountry-home');
 });
 
