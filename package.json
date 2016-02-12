@@ -7,5 +7,25 @@
     "bootstrap-sass": "^3.0.0",
     "jquery": "^2.2.0",
     "laravel-elixir": "^4.0.0"
-  }
+  },
+  "name": "netmarvel",
+  "description": "",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BAISedu/netmarvel.git"
+  },
+  "author": "Brenden Lyon",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BAISedu/netmarvel/issues"
+  },
+  "homepage": "https://github.com/BAISedu/netmarvel#readme"
 }
