@@ -47,33 +47,72 @@
                         <div class="col-xs-5 text-right">Team 3</div>
                     </div>
                 </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xs-5 text-left">Team 2</div>
+                        <div class="col-xs-2 text-center">VS</div>
+                        <div class="col-xs-5 text-right">Team 4</div>
+                    </div>
                 </li>
-                <li class="list-group-item"><p>Team 2 vs Team 4</p></li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xs-5 text-left">Team 1</div>
+                        <div class="col-xs-2 text-center">VS</div>
+                        <div class="col-xs-5 text-right">Team 4</div>
+                    </div>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xs-5 text-left">Team 2</div>
+                        <div class="col-xs-2 text-center">VS</div>
+                        <div class="col-xs-5 text-right">Team 3</div>
+                    </div>
+                </li>
+
+                </li>
+
             </ul>
     
     
     </div>
     <div class="col-sm-3">
         <h3> Current Match </h3>
-        <div class="col-sm-1">
-            <p>
-            Top 1
-            </p>
-        </div>
-        
-        <div class="col-sm-1">
-            <p>
-            VS
-            </p>
-        </div>
+            
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-5 text-left">
+                <h4>Team 1</h4>
+                </div>
+                <div class="col-xs-2 text-center">
+                <h4> VS </h4>        
+                </div>
+                <div class="col-xs-5 text-right">
+                <h4>Team 2</h4>
+                </div>
+            </div>
+        </li>
 
-        <div class="col-sm-1">
-            <p>
-            Top 2
-            </p>
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-5 text-left">
+                    <h5> Top 1 </h5>
+                    <h6> Score </h6>
+                    <h5> Mid 1 </h5>
+                    <h6> Score </h6>
+                    <h5> Bot 1 </h5>
+                    <h6> Score </h6>
+                </div>
+                <div class="col-xs-2 text-center">
+                </div>
+                <div class="col-xs-5 text-right">
+                    <h5> Top 2 </h5>
+                    <h6> Score </h6>
+                    <h5> Mid 2 </h5>
+                    <h6> Score </h6>
+                    <h5> Bot 2 </h5>
+                    <h6> Score </h6>
+                </div>
+            </li>
         </div>
-    
-    </div>
 </div>
 
 
