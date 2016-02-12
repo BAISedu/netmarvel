@@ -51,7 +51,7 @@ Route::get('/swim/event-detail/', function () {
     return view('swim-event-detail');
 });
 
-Route::get('/crosscountry /', function () {
+Route::get('/cross-country /', function () {
     return view('crosscountry-home');
 });
 
