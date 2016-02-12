@@ -14,45 +14,45 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BAIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>Schedule</li>
-                        <li><a href="#"></a>Players</li>
-                        <li><a href="#"></a>History</li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bali
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>Schedule</li>
-                        <li><a href="#"></a>Players</li>
-                        <li><a href="#"></a>History</li>
-                    </ul>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
+                   </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">MICS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>Schedule</li>
-                        <li><a href="#"></a>Players</li>
-                        <li><a href="#"></a>History</li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">WIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>Schedule</li>
-                        <li><a href="#"></a>Players</li>
-                        <li><a href="#"></a>History</li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>Schedule</li>
-                        <li><a href="#"></a>Players</li>
-                        <li><a href="#"></a>History</li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
 
@@ -60,9 +60,9 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">SIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>Schedule</li>
-                        <li><a href="#"></a>Players</li>
-                        <li><a href="#"></a>History</li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
+                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
             </ul>
