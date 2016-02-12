@@ -9,7 +9,7 @@
                 <a class="navbar-brand" href="#mypage">IISSAC</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">HOME</a></li>
+                <li class=""><a href="#">HOME</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BAIS
                     <span class="caret"></span></a>
