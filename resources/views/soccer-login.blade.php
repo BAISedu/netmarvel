@@ -19,7 +19,7 @@
                     </div>
                     <div class="form-group">
                         <div class = "col-sm-offset-2 col-sm-10">
-                            <button type="button" class="btn btn-primary btn-md">Submit</button>
+                            <a href="/soccer/homepage/"><button type="button" class="btn btn-primary btn-md">Submit</button></a>
                         </div>
                     </div>    
                 </form>

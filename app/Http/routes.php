@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/bob/', function() {
+    return view('bob-home');
+}); 
+
 Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
 }); 
@@ -33,6 +38,10 @@ Route::get('/soccer/homepage/', function() {
 
 Route::get('/badminton/', function () {
     return view('badminton-home');
+});
+
+Route::get('/badminton/player-management/', function () {
+    return view('badminton-player-management');
 });
 
 Route::get('/swim/', function () {
