@@ -56,7 +56,7 @@
     }
 
     $(function() {
-        $('#minimal .demo').bracket({
+        $('#bracket').bracket({
         init: minimalData /* data to initialize the bracket with */ })
     })
     </script>
