@@ -10,12 +10,10 @@
                 </div>
                 <div>
                     <ul class="nav navbar-nav">
-                    
                         <li class="active"><a href="#" style="color:red">LIVE NOW</a></li>
                         <li style="color:white;"><a href="#" style="color:white;">Bracket</a></li>
                         <li style="color:white;"><a href="#" style="color:white;">Teams</a></li> 
                         <li style="color:white;"><a href="#" style="color:white;">Stats</a></li>
-                    
                     </ul>
                 </div>
             </div>
@@ -28,7 +26,10 @@
             <ul class="list-group">
                 <li class="list-group-item">
                     <div class="row">
-                        <div class="col-xs-5 text-left">Team 1</div>
+                        <div class="col-xs-5 text-left">
+                        BAIS
+                        <img src="/img/bob/BAIS-LetterHead-Header.png"/>
+                        </div>
                         <div class="col-xs-2 text-center">VS</div>
                         <div class="col-xs-5 text-right">Team 2</div>
                     </div>
