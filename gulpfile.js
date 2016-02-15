@@ -1,5 +1,7 @@
 var elixir = require('laravel-elixir');
 
+require('laravel-elixir-bower');
+
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -18,4 +20,5 @@ elixir(function(mix) {
         .copy(bootstrapPath + '/fonts', 'public/fonts')
         .copy(bootstrapPath + '/javascripts/bootstrap.min.js', 'public/js')
         .copy(jQueryPath + '/dist/jquery.min.js', 'public/js');
+    mix.bower('app.css', 'public/css', 'scripts.js', 'public/js');
 });

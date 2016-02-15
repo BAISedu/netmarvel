@@ -14,6 +14,10 @@
             <button type="button" class="btn btn-info">Edit Event</button>
         </div>
     </div>
+    <div><!-- braxket -->
+         
+
+    </div>
     <div> <!-- upcoming games -->
         <div class="col-sm-6">
             <h3> Boy's Current Game </h3>
