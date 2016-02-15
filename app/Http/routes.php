@@ -59,6 +59,11 @@ Route::get('/cross-country/stats/', function () {
     return view('crosscountry-stats');
 });
 
+Route::get('/cross-country/player-management/', function () {
+    return view('crosscountry-player-management');
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
