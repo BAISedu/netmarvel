@@ -55,8 +55,16 @@ Route::get('/swim/event-detail/', function () {
     return view('swim-event-detail');
 });
 
-Route::get('/cross-country /', function () {
+Route::get('/cross-country/', function () {
     return view('crosscountry-home');
+});
+
+Route::get('/cross-country/stats/', function () {
+    return view('crosscountry-stats');
+});
+
+Route::get('/cross-country/player-management/', function () {
+    return view('crosscountry-player-management');
 });
 
 
