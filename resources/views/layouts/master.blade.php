@@ -5,6 +5,7 @@
         {!! Html::style('css/app.css') !!}
 
         {!! Html::script('js/jquery.min.js') !!}
+        {!! Html::script('js/scripts.js') !!}
         {!! Html::script('js/bootstrap.min.js') !!}
 
     </head>
