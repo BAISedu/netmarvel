@@ -21,21 +21,14 @@
             <tbody>
             <tr>
             <td>PID#</td>
-            <td><a href="#">IISSAC Swim Meet Preliminary</td>
-            <td>Bandung Allience Intercultural School</a></td>
-            <td>yy-mm-dd</td>
-            <td>yy-mm-dd</td>
-            </tr>
-            <tr>
-            <td>PID#</td>
-            <td><a href="#">IISSAC Swim Meet 2016</td>
+            <td><a href="/swim/event-detail/">IISSAC Swim Meet Preliminary</a></td>
             <td>Bandung Allience Intercultural School</td>
             <td>yy-mm-dd</td>
             <td>yy-mm-dd</td>
             </tr>
             <tr>
             <td>PID#</td>
-            <td><a href="#">Programme</td>
+            <td><a href="/swim/event-detail/">IISSAC Swim Meet 2016</a></td>
             <td>Bandung Allience Intercultural School</td>
             <td>yy-mm-dd</td>
             <td>yy-mm-dd</td>

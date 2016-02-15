@@ -10,7 +10,7 @@
             <h2>Stats</h2>
             <p>See the Stats</p>
             <p>
-                <a class="btn btn-default" href="#" role="button">View details </a>
+                <a class="btn btn-default" href="/cross-country/stats/" role="button">View details </a>
             </p>
         </div>
         <div class="col-md-4">
