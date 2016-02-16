@@ -65,18 +65,35 @@
         </ul>
     </div>
 </nav>
-<h3> BAIS - Girl's Team </h3>
-<table class="table table-bored">
+<h3> BAIS - Boy's Team </h3>
+<form class="form-inline">
+<table class="table table-bordered">
     <thead>
         <tr>
             <th></th>
-            <th>Name</th>
+            <th class="text-center">Player Name</th>
+            <th class="text-center">Player Number</th>
+            <th class="text-center">Captain/Goalie</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th></th>
+            <th scope="row"><input type="checkbox"></th>
+            <td>So Hyeon Park</td>
+            <td>10</td>
+            <td>
+                <div class="form-group">
+                    <label class="sr-only" for="playerType">Type</label>
+                    <select class="form-control">
+                        <option>N/A</option>
+                        <option>Goalie</option>
+                        <option>Captain</option>
+                    </select>
+                </div>
+            </td>
+
         </tr>
     </tbody>
 </table>
+</form>
 @endsection
