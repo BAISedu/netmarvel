@@ -47,5 +47,8 @@
             </tbody>
         </table>
     </div>
+    <div>
+    <button type="button" class="btn btn-default btn-lg active">Add Participant</button>  <button type="button" class="btn btn-default btn-lg active">Create Participant</button>
+    </div>
 </div>
 @endsection
