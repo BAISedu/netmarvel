@@ -18,4 +18,13 @@ elixir(function(mix) {
         .copy(bootstrapPath + '/fonts', 'public/fonts')
         .copy(bootstrapPath + '/javascripts/bootstrap.min.js', 'public/js')
         .copy(jQueryPath + '/dist/jquery.min.js', 'public/js');
+
+    mix.scripts([
+        'vendor/jquery-bracket/dist/jquery.bracket.min.js',
+    ], 'public/js/scripts.js', 'resources/');
+    mix.styles([
+        'resources/vendor/jquery-bracket/dist/jquery.bracket.min.css',
+        'public/css/app.css',
+    ], 'public/css/app.css', '.');
+
 });

@@ -10,12 +10,10 @@
                 </div>
                 <div>
                     <ul class="nav navbar-nav">
-                    
                         <li class="active"><a href="#" style="color:red">LIVE NOW</a></li>
                         <li style="color:white;"><a href="#" style="color:white;">Bracket</a></li>
                         <li style="color:white;"><a href="#" style="color:white;">Teams</a></li> 
                         <li style="color:white;"><a href="#" style="color:white;">Stats</a></li>
-                    
                     </ul>
                 </div>
             </div>
@@ -28,7 +26,10 @@
             <ul class="list-group">
                 <li class="list-group-item">
                     <div class="row">
-                        <div class="col-xs-5 text-left">Team 1</div>
+                        <div class="col-xs-5 text-left">
+                        BAIS
+                        <img src="/img/bob/BAIS-LetterHead-Header.png"/>
+                        </div>
                         <div class="col-xs-2 text-center">VS</div>
                         <div class="col-xs-5 text-right">Team 2</div>
                     </div>
@@ -89,11 +90,12 @@
                 <h4>Team 2</h4>
                 </div>
             </div>
+        <p class="text-center">0:00</p>
         </li>
 
         <li class="list-group-item">
             <div class="row">
-                <div class="col-xs-5 text-left">
+                <div class="col-xs-6 text-left">
                     <h5> Top 1 </h5>
                     <h6> Score </h6>
                     <h5> Mid 1 </h5>
@@ -101,9 +103,7 @@
                     <h5> Bot 1 </h5>
                     <h6> Score </h6>
                 </div>
-                <div class="col-xs-2 text-center">
-                </div>
-                <div class="col-xs-5 text-right">
+                <div class="col-xs-6 text-right">
                     <h5> Top 2 </h5>
                     <h6> Score </h6>
                     <h5> Mid 2 </h5>
