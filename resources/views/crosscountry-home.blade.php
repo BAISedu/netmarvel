@@ -24,7 +24,7 @@
             <h2>Player Management</h2>
             <p> Adding Players and Events</p>
             <p>
-                <a class="btn btn-default" href="#" role="button">Add Data</a>
+                <a class="btn btn-default" href="/cross-country/player-management/" role="button">Add Data</a>
             </p>
         </div>
     </div>
