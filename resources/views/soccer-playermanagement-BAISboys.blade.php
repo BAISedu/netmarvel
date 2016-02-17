@@ -91,9 +91,11 @@
                     </select>
                 </div>
             </td>
-
         </tr>
     </tbody>
 </table>
+<!-- CHANGE THE SOCCER/HOMEPAGE ROUTE -->
+<a href="/soccer/playermanagement/BAISboys/AddPlayers/"><button type="button" class="btn btn-primary btn-md">Add a Player</button></a>
+<a href="/soccer/homepage/"><button type="button" class="btn btn-primary btn-md">Submit</button></a>
 </form>
 @endsection
