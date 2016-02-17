@@ -11,7 +11,7 @@
             <table class="table table-striped">
             <thead>
             <tr>
-            <th>PID</th>
+            <th>PID#</th>
             <th>Programme Name</th>
             <th>Venue</th>
             <th>Start Date</th>
@@ -40,7 +40,7 @@
         <div class="row">
             <button class="btn btn-default"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp; Add Program</button>
             <button class="btn btn-default"><span class="glyphicon glyphicon-floppy-save"></span>&nbsp; Save</button>
-            <button class="btn btn-default"><span class="glyphicon glyphicon-print"></span>&nbsp; Print</button>
+            <a href="javascript:window.print()"><button class="btn btn-default"><span class="glyphicon glyphicon-print"></span> print</button>
         </div>
     </div>
 </div>
