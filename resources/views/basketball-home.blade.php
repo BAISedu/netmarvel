@@ -67,28 +67,5 @@
     })
     </script>
     
-    <script type="text/javascript">
-
-    var minimalData = {
-        teams : [
-            ["Team 1", "Team 2"], /* first Bi  */
-            ["Team 3", "Team 4"], /* second matchup */
-            ["Team 4", "Team 5"], /* third matchup */
-            ["Team 6", "Team 7"]  /* fourth Bi */
-        ],
-        results : [
-            [[1,0], [30,54], [50, 45], [1,0]],       /* first round */
-            [[46,12], [35,56]],                      /* second round */
-            [[52,50]] /* final round */
-        ]
-    }
-
-    $(function() {
-        $('#bracket').bracket({
-        init: minimalData /* data to initialize the bracket with */ })
-    })
-    </script>
-
-
 
 @endsection

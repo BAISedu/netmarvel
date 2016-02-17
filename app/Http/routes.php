@@ -21,7 +21,12 @@ Route::get('/bob/', function() {
 
 Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
-}); 
+});
+
+Route::get('/basketball/schedule', function() {
+    return view('basketball-schedule');
+});
+
 
 Route::get('/soccer/', function() {
     return view('soccer-home');
