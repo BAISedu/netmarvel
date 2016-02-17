@@ -55,7 +55,14 @@
                     <label for="emailAdd">Email address</label>
                     <input type="email" class="form-control" id="emailAdd" placeholder="example@example.com">
                 </div>
-
+                <div class="form-group">
+                    <label for="Sex">Gender</label>
+                    <select class="form-control">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+                <a href="/cross-country/player-management/"><button type="button" class="btn btn-primary btn-md">Submit</button></a>
             </form>
         </div>
     </div>

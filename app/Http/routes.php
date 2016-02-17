@@ -67,6 +67,10 @@ Route::get('/cross-country/player-management/', function () {
     return view('crosscountry-player-management');
 });
 
+Route::get('/cross-country/add-event/', function () {
+    return view('crosscountry-add-event');
+});
+
 
 /*
 |--------------------------------------------------------------------------
