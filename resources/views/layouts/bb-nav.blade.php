@@ -14,7 +14,7 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BAIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
+                        <li><a href="/basketball/schedule/"><button type="button" class="btn btn-default">Schedule</button></a></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
