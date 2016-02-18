@@ -64,6 +64,10 @@ Route::get('/swim/add-program/', function () {
     return view('swim-add-program');
 });
 
+Route::get('/swim/add-event/', function () {
+    return view('swim-add-event');
+});
+
 Route::get('/cross-country/', function () {
     return view('crosscountry-home');
 });
