@@ -14,55 +14,54 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BAIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>schedule</li>
-                        <li><a href="#"></a>players</li>
-                        <li><a href="#"></a>history</li>
+                        <li><a href="#"></a>Schedule</li>
+                        <li><a href="/badminton/player-management/">Players</a></li>
+                        <li><a href="#"></a>History</li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BALI
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>schedule</li>
-                        <li><a href="#"></a>players</li>
-                        <li><a href="#"></a>history</li>
+                        <li><a href="#"></a>Schedule</li>
+                        <li><a href="/badminton/player-management/">Players</a></li>
+                        <li><a href="#"></a>History</li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">MICS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>schedule</li>
-                        <li><a href="#"></a>players</li>
-                        <li><a href="#"></a>history</li>
+                        <li><a href="#"></a>Schedule</li>
+                        <li><a href="/badminton/player-management/">Players</a></li>
+                        <li><a href="#"></a>History</li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">WIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>schedule</li>
-                        <li><a href="#"></a>players</li>
-                        <li><a href="#"></a>history</li>
+                        <li><a href="#"></a>Schedule</li>
+                        <li><a href="/badminton/player-management/">Players</a></li>
+                        <li><a href="#"></a>History</li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>schedule</li>
-                        <li><a href="#"></a>players</li>
-                        <li><a href="#"></a>history</li>
+                        <li><a href="#"></a>Schedule</li>
+                        <li><a href="/badminton/player-management/">Players</a></li>
+                        <li><a href="#"></a>History</li>
                     </ul>
                 </li>
-
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">SIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"></a>schedule</li>
-                        <li><a href="#"></a>players</li>
-                        <li><a href="#"></a>history</li>
+                        <li><a href="#"></a>Schedule</li>
+                        <li><a href="/badminton/player-management/">Players</a></li>
+                        <li><a href="#"></a>History</li>
                     </ul>
                 </li>
             </ul>
