@@ -21,7 +21,12 @@ Route::get('/bob/', function() {
 
 Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
-}); 
+});
+
+Route::get('/basketball/schedule', function() {
+    return view('basketball-schedule');
+});
+
 
 Route::get('/soccer/', function() {
     return view('soccer-home');
@@ -69,6 +74,10 @@ Route::get('/cross-country/stats/', function () {
 
 Route::get('/cross-country/player-management/', function () {
     return view('crosscountry-player-management');
+});
+
+Route::get('/cross-country/add-event/', function () {
+    return view('crosscountry-add-event');
 });
 
 
