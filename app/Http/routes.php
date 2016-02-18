@@ -44,6 +44,10 @@ Route::get('/soccer/playermanagement/BAISboys/', function() {
     return view('soccer-playermanagement-BAISboys');
 });
 
+Route::get('/soccer/playermanagement/BAISboys/AddPlayers/', function() {
+    return view('soccer-playermanagement-BAISboys-AddPlayers');
+});
+
 Route::get('/badminton/', function () {
     return view('badminton-home');
 });
@@ -84,6 +88,9 @@ Route::get('/cross-country/add-event/', function () {
     return view('crosscountry-add-event');
 });
 
+Route::get('/cross-country/enter-data/', function () {
+    return view('crosscountry-enter-data');
+});
 
 /*
 |--------------------------------------------------------------------------
