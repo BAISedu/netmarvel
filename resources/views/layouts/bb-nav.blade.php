@@ -9,13 +9,13 @@
                 <a class="navbar-brand" href="#myPage">IISSAC</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="/basketball/">Home</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">BAIS
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/basketball/schedule/"><button type="button" class="btn btn-default">Schedule</button></a></li>
-                        <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
+                        <li><a href="/basketball/player/"><button type="button" class="btn btn-default">Players</button></a></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>

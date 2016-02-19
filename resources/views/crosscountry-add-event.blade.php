@@ -3,7 +3,7 @@
 @section('content')
 <div class="content">
     <div class="title"><h1>Cross Country - Add Event</h1></div>
-    @include('layouts/cross-country-nav');
+    @include('layouts/cross-country-nav')
     <div class="container">
         <div class="form-group">
             <label for="Eventname">Event Name</label>

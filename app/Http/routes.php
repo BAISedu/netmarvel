@@ -27,6 +27,9 @@ Route::get('/basketball/schedule', function() {
     return view('basketball-schedule');
 });
 
+Route::get('/basketball/player', function() {
+    return view('basketball-player');
+});
 
 Route::get('/soccer/', function() {
     return view('soccer-home');
@@ -99,6 +102,11 @@ Route::get('/cross-country/player-management/', function () {
 Route::get('/cross-country/add-event/', function () {
     return view('crosscountry-add-event');
 });
+
+Route::get('/cross-country/select-event/', function () {
+    return view('crosscountry-select-event');
+});
+
 
 Route::get('/cross-country/enter-data/', function () {
     return view('crosscountry-enter-data');

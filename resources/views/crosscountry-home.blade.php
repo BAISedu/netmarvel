@@ -38,7 +38,7 @@
             <h2>Enter Data</h2>
             <p> Entering the Game Data</p>
             <p>
-                <a class="btn btn-default" href="/cross-country/enter-data/" role="button">Enter Data</a>
+                <a class="btn btn-default" href="/cross-country/select-event/" role="button">Enter Data</a>
             </p>
         </div>
 
