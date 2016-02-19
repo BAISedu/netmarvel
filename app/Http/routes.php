@@ -44,6 +44,14 @@ Route::get('/soccer/playermanagement/BAISboys/', function() {
     return view('soccer-playermanagement-BAISboys');
 });
 
+Route::get('/soccer/playermanagement/BAISboys/AddPlayers/', function() {
+    return view('soccer-playermanagement-BAISboys-AddPlayers');
+});
+
+Route::get('/soccer/playermanagement/BAISboys/Save/', function() {
+    return view('soccer-playermanagement-BAISboys-Save');
+});
+
 Route::get('/badminton/', function () {
     return view('badminton-home');
 });
@@ -52,12 +60,24 @@ Route::get('/badminton/player-management/', function () {
     return view('badminton-player-management');
 });
 
+Route::get('/badminton/create-participant/', function () {
+    return view('badminton-create-participant');
+});
+
 Route::get('/swim/', function () {
     return view('swim-home');
 });
 
 Route::get('/swim/event-detail/', function () {
     return view('swim-event-detail');
+});
+
+Route::get('/swim/add-program/', function () {
+    return view('swim-add-program');
+});
+
+Route::get('/swim/add-event/', function () {
+    return view('swim-add-event');
 });
 
 Route::get('/cross-country/', function () {
