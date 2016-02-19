@@ -6,14 +6,14 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#" style="color:white;">BoB Home</a>
+                    <a class="navbar-brand" href="/bob/" style="color:white;">BoB Home</a>
                 </div>
                 <div>
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#" style="color:red">LIVE NOW</a></li>
+                        <li class="active"><a href="/bob/" style="color:red">LIVE NOW</a></li>
                         <li style="color:white;"><a href="#" style="color:white;">Bracket</a></li>
-                        <li style="color:white;"><a href="#" style="color:white;">Teams</a></li> 
-                        <li style="color:white;"><a href="#" style="color:white;">Stats</a></li>
+                        <li style="color:white;"><a href="/bob/teams/" style="color:white;">Teams</a></li> 
+                        <li style="color:white;"><a href="/bob/stats/" style="color:white;">Stats</a></li>
                     </ul>
                 </div>
             </div>
