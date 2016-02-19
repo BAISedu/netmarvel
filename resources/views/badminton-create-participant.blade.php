@@ -18,11 +18,11 @@
             <div class="form-group">
                 <label for="firstName">Name</label>
                 <div class="form-inline row">
-                    <div class="form-group col-xs-6">
+                    <div class="col-xs-6">
                         <label for="firstName" class="sr-only">First Name</label>
                         <input type="text" class="form-control" id="firstName" placeholder="First Name">
                     </div>
-                    <div class="form-group col-xs-6">
+                    <div class="col-xs-6">
                         <label for="lastName" class="sr-only">Last Name</label>
                         <input type="text" class="form-control" id="lastName" placeholder="Last Name">
                     </div>
