@@ -14,9 +14,17 @@
             <button type="button" class="btn btn-info">Edit Event</button>
         </div>
     </div>
-    <div id="bracket"><!-- bracket -->
-        <div class="col-sm-12 text-center">
-        <h2>Boys Bracket</h2>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="text-center">Boys Bracket</h2>
+            <div id="bracket1"><!-- bracket --></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="text-center">Girls Bracket</h2>
+            <div id="bracket2"><!-- bracket --></div>
         </div>
     </div>
     <div> <!-- upcoming games -->
@@ -34,20 +42,18 @@
         <div class="col-sm-6">
             <h3> Girl's Current Game </h3>
             <div class="row">   
-                            <div class="col-sm-5 text-center">School</div>
-                            <div class="col-sm-2 text-center">vs.</div>
-                            <div class="col-sm-5 text-center">School</div>
-                        <div class="row">
-                            <div class="col-sm-12 text-center"><h4>Score</h4></div>
-                        </div>
-
+                <div class="col-sm-5 text-center">School</div>
+                <div class="col-sm-2 text-center">vs.</div>
+                <div class="col-sm-5 text-center">School</div>
             </div>
-
+            <div class="row">
+                <div class="col-sm-12 text-center"><h4>Score</h4></div>
+             </div>
         </div>
-
+    </div> <!-- upcoming games -->
     <script type="text/javascript">
 
-    var minimalData = {
+    var boys = {
         teams : [
             ["Team 1", "Team 2"], /* first Bi  */
             ["Team 3", "Team 4"], /* second matchup */
@@ -60,18 +66,9 @@
             [[52,50]] /* final round */
         ]
     }
-
-    $(function() {
-        $('#bracket').bracket({
-        init: minimalData /* data to initialize the bracket with */ })
-    })
-    </script>
-    
-    <script type="text/javascript">
-
-    var minimalData = {
+    var girls = {
         teams : [
-            ["Team 1", "Team 2"], /* first Bi  */
+            ["Girls Team 1", "Team 2"], /* first Bi  */
             ["Team 3", "Team 4"], /* second matchup */
             ["Team 4", "Team 5"], /* third matchup */
             ["Team 6", "Team 7"]  /* fourth Bi */
@@ -83,12 +80,13 @@
         ]
     }
 
+
     $(function() {
-        $('#bracket').bracket({
-        init: minimalData /* data to initialize the bracket with */ })
+        $('#bracket1').bracket({
+        init: boys/* data to initialize the bracket with */ })
+
+        $('#bracket2').bracket({
+        init: girls/* data to initialize the bracket with */ })
     })
     </script>
-
-
-
 @endsection
