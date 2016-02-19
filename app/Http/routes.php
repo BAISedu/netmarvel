@@ -76,6 +76,11 @@ Route::get('/cross-country/add-event/', function () {
     return view('crosscountry-add-event');
 });
 
+Route::get('/cross-country/select-event/', function () {
+    return view('crosscountry-select-event');
+});
+
+
 Route::get('/cross-country/enter-data/', function () {
     return view('crosscountry-enter-data');
 });
