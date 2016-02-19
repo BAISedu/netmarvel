@@ -29,7 +29,15 @@ Route::get('/bob/stats/', function() {
 
 Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
-}); 
+});
+
+Route::get('/basketball/schedule', function() {
+    return view('basketball-schedule');
+});
+
+Route::get('/basketball/player', function() {
+    return view('basketball-player');
+});
 
 Route::get('/soccer/', function() {
     return view('soccer-home');
@@ -47,6 +55,18 @@ Route::get('/soccer/playermanagement/BAISboys/', function() {
     return view('soccer-playermanagement-BAISboys');
 });
 
+Route::get('/soccer/playermanagement/BAISboys/AddPlayers/', function() {
+    return view('soccer-playermanagement-BAISboys-AddPlayers');
+});
+
+Route::get('/soccer/playermanagement/BAISboys/Save/', function() {
+    return view('soccer-playermanagement-BAISboys-Save');
+});
+
+Route::get('/soccer/playermanagement/BAISgirls/', function() {
+    return view('soccer-playermanagement-BAISgirls');
+});
+
 Route::get('/badminton/', function () {
     return view('badminton-home');
 });
@@ -55,12 +75,24 @@ Route::get('/badminton/player-management/', function () {
     return view('badminton-player-management');
 });
 
+Route::get('/badminton/create-participant/', function () {
+    return view('badminton-create-participant');
+});
+
 Route::get('/swim/', function () {
     return view('swim-home');
 });
 
 Route::get('/swim/event-detail/', function () {
     return view('swim-event-detail');
+});
+
+Route::get('/swim/add-program/', function () {
+    return view('swim-add-program');
+});
+
+Route::get('/swim/add-event/', function () {
+    return view('swim-add-event');
 });
 
 Route::get('/cross-country/', function () {
@@ -75,6 +107,18 @@ Route::get('/cross-country/player-management/', function () {
     return view('crosscountry-player-management');
 });
 
+Route::get('/cross-country/add-event/', function () {
+    return view('crosscountry-add-event');
+});
+
+Route::get('/cross-country/select-event/', function () {
+    return view('crosscountry-select-event');
+});
+
+
+Route::get('/cross-country/enter-data/', function () {
+    return view('crosscountry-enter-data');
+});
 
 /*
 |--------------------------------------------------------------------------

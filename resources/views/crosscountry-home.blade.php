@@ -22,11 +22,26 @@
         </div>
         <div class="col-md-4">
             <h2>Player Management</h2>
-            <p> Adding Players and Events</p>
+            <p> Adding Players(Participant)</p>
             <p>
-                <a class="btn btn-default" href="/cross-country/player-management/" role="button">Add Data</a>
+                <a class="btn btn-default" href="/cross-country/player-management/" role="button">Add Player</a>
             </p>
         </div>
+        <div class="col-md-4">
+            <h2>Add Event</h2>
+            <p> Adding Events</p>
+            <p>
+                <a class="btn btn-default" href="/cross-country/add-event/" role="button">Add Event</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Enter Data</h2>
+            <p> Entering the Game Data</p>
+            <p>
+                <a class="btn btn-default" href="/cross-country/select-event/" role="button">Enter Data</a>
+            </p>
+        </div>
+
     </div>
 
 </div>
