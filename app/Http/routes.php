@@ -52,6 +52,10 @@ Route::get('/soccer/playermanagement/BAISboys/Save/', function() {
     return view('soccer-playermanagement-BAISboys-Save');
 });
 
+Route::get('/soccer/playermanagement/BAISgirls/', function() {
+    return view('soccer-playermanagement-BAISgirls');
+});
+
 Route::get('/badminton/', function () {
     return view('badminton-home');
 });
