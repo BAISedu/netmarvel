@@ -66,7 +66,7 @@
     </div>
 </nav>
 <h3> BAIS - Boy's Team </h3>
-<form class="form-inline">
+<form class="">
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -82,13 +82,80 @@
     <tbody>
         <tr>
             <th scope="row"><input type="checkbox"></th>
-            <td><input type="text"</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+        </tr>
+        <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+        </tr>
+        <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+        </tr>
+        <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+        </tr>
+        <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+        </tr>
+        <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+        </tr>
+        <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+        </tr>
+        <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
+            <td><input type="text" class="form-control"  /></td>
         </tr>
     </tbody>
 </table>
+<div class="text-right">
+    <a href="/soccer/playermanagement/BAISboys/"><button type="button" class="btn btn-primary btn-md">Add a Player</button></a>
+</div>
+</form>
 @endsection
