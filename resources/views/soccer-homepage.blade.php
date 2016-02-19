@@ -18,7 +18,7 @@
                     <li class="dropdown-header">BAIS
                         <ul class="">
                             <li><a href="/soccer/playermanagement/BAISboys/">Boys</a></li>
-                            <li><a href="#">Girls</a></li>
+                            <li><a href="/soccer/playermanagement/BAISgirls">Girls</a></li>
                         </ul>
                     </li>
                     <li class="dropdown-header">BIS (Bali)
