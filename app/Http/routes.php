@@ -27,6 +27,10 @@ Route::get('/bob/stats/', function() {
     return view('bob-stats');
 }); 
 
+Route::get('/bob/bracket/', function() {
+    return view('bob-bracket');
+}); 
+
 Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
 });
