@@ -43,6 +43,10 @@ Route::get('/basketball/player', function() {
     return view('basketball-player');
 });
 
+Route::get('/basketball/player/managment', function() {
+    return view('basketball-player-managment');
+});
+
 Route::get('/soccer/', function() {
     return view('soccer-home');
 });
@@ -69,6 +73,10 @@ Route::get('/soccer/playermanagement/BAISboys/Save/', function() {
 
 Route::get('/soccer/playermanagement/BAISgirls/', function() {
     return view('soccer-playermanagement-BAISgirls');
+});
+
+Route::get('/soccer/schedule/', function() {
+    return view('soccer-schedule');
 });
 
 Route::get('/badminton/', function () {

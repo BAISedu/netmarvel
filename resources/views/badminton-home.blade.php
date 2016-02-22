@@ -24,9 +24,9 @@
 
 var boys = {
     teams : [
-        ["Team 1", "Team 2"], /* first Bi  */
-        ["Team 3", "Team 4"], /* second matchup */
-        ["Team 4", "Team 5"], /* third matchup */
+        ["BAIS", "MCS"], /* first Bi  */
+        ["BALI", "BIS"], /* second matchup */
+        ["SIS", "WIS"], /* third matchup */
         ["Team 6", "Team 7"]  /* fourth Bi */
     ],
     results : [
