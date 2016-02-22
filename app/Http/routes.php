@@ -39,6 +39,10 @@ Route::get('/basketball/player', function() {
     return view('basketball-player');
 });
 
+Route::get('/basketball/player/managment', function() {
+    return view('basketball-player-managment');
+});
+
 Route::get('/soccer/', function() {
     return view('soccer-home');
 });
