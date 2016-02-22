@@ -1,9 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Swim - add event - Add!')
+@section('title', 'Swim - Event - Add!')
 @section('content')
 <div class="content">
     <div class="title"><h1>Swim</h1></div>
-    <h2>Program Management &raquo; Add</h2>
+    <h2>Event &raquo; Add</h2>
     <div class="container-fluid">
         <div class="row">
             <form>

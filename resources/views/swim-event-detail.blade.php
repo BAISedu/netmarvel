@@ -12,9 +12,10 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Event 01</a>
                     </h4>
                 </div>
-                <div id="collapse1" class="panel-collapse collapse in">
+                <div id="collapse1" class="panel-collapse collapse out">
                     <div class="panel-body">
                         <!-- table content goes in here -->
+                        <form class="">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -37,7 +38,7 @@
                                     <td>Amudhan W. Ramappa</td>
                                     <td>Internatoinal School in India</td>
                                     <td>NT</td>
-                                    <td>Minute:Second:Millisecond</td>
+                                    <td><input type="time" class="" id="time-1" placeholder="m:s:ms" /></td>
                                     <td>1</td>
                                 </tr>
                                 <tr>
@@ -46,7 +47,7 @@
                                     <td>Amudhan W. Ramappa</td>
                                     <td>Internatoinal School in India</td>
                                     <td>NT</td>
-                                    <td>Minute:Second:Millisecond</td>
+                                    <td><input type="time" class="" id="time-2" placeholder="m:s:ms" /></td>
                                     <td>2</td>
                                 </tr>
                                  <tr>
@@ -55,11 +56,13 @@
                                     <td>Amudhan W. Ramappa</td>
                                     <td>Internatoinal School in India</td>
                                     <td>NT</td>
-                                    <td>Minute:Second:Millisecond</td>
+                                    <td><input type="time" class="" id="time-3" placeholder="m:s:ms" /></td>
                                     <td>3</td>
                                 </tr>
                            </tbody>
                         </table>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -74,7 +77,7 @@
                     </a>
                     </h4>
                 </div>
-                <div id="collapse2" class="panel-collapse collapse in">
+                <div id="collapse2" class="panel-collapse collapse out">
                     <div class="panel-body">
                         <!-- table content goes in here -->
                         <table class="table">
@@ -128,6 +131,10 @@
         </div>    
       </div>     
     </div>
+    <div class="row">
+        <button class="btn btn-default"><a href="/swim/add-event/"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;Add Event</a></button>
+    </div>
+
 </div>
 <script type="text/javascript">
 
