@@ -67,6 +67,10 @@ Route::get('/soccer/playermanagement/BAISgirls/', function() {
     return view('soccer-playermanagement-BAISgirls');
 });
 
+Route::get('/soccer/schedule/', function() {
+    return view('soccer-schedule');
+});
+
 Route::get('/badminton/', function () {
     return view('badminton-home');
 });
