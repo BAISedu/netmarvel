@@ -57,7 +57,7 @@
                 <a class="dropdown-toggle" href="#">Statistics</a>
             </li>
             <li class="dropdown">
-                <a class="dropdown-toggle" href="#">Previous IISSACs</a>
+                <a href="/soccer/previousIISSACs/">Previous IISSACs</a>
             </li>
         </ul>
     </div>
