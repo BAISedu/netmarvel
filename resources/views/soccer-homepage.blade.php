@@ -2,7 +2,6 @@
 @section('title', 'Welcome!')
 @section('content')
 @include('layouts.soccer-nav')
-<!-- work on database to connect the variable to school data -->
 <h3 class="text-center"><strong>Current Game</strong></h3>
 <div class="row">
     <div class="col-md-6 panel panel-default">
