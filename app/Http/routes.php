@@ -43,7 +43,7 @@ Route::get('/basketball/player', function() {
     return view('basketball-player');
 });
 
-Route::get('/basketball/player/managment', function() {
+Route::get('/basketball/player/management', function() {
     return view('basketball-player-managment');
 });
 
