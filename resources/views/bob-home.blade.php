@@ -11,7 +11,7 @@
                 <div>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="/bob/" style="color:red">LIVE NOW</a></li>
-                        <li style="color:white;"><a href="#" style="color:white;">Bracket</a></li>
+                        <li style="color:white;"><a href="/bob/bracket/" style="color:white;">Bracket</a></li>
                         <li style="color:white;"><a href="/bob/teams/" style="color:white;">Teams</a></li> 
                         <li style="color:white;"><a href="/bob/stats/" style="color:white;">Stats</a></li>
                     </ul>
