@@ -42,7 +42,7 @@
                             <li><a href="#"></a>Girls</li>
                         </ul>
                     </li>
-                    <li class="dropdown-header">WIS
+                    <li class="dropdown-header">WS
                         <ul class="">
                             <li><a href="#"></a>Boys</li>
                             <li><a href="#"></a>Girls</li>
@@ -57,7 +57,7 @@
                 <a class="dropdown-toggle" href="#">Statistics</a>
             </li>
             <li class="dropdown">
-                <a class="dropdown-toggle" href="#">Previous IISSACs</a>
+                <a href="/soccer/previousIISSACs/year/">Previous IISSACs</a>
             </li>
         </ul>
     </div>

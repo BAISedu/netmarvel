@@ -8,10 +8,10 @@
     <div class="row"> <!-- button for editing and creating event -->
         <div class="col-sm-8"></div>
         <div class="col-sm-2">
-            <button type="button" class="btn btn-info">New Event</button>
+            <button type="button" class="btn btn-info"><a href="/basketball/event/create"> New Event</a></button>
         </div> 
         <div class="col-sm-2">
-            <button type="button" class="btn btn-info">Edit Event</button>
+            <button type="button" class="btn btn-info"><a href="/basketball/event/management">Edit Event</a></button>
         </div>
     </div>
 

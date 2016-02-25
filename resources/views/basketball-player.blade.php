@@ -7,7 +7,7 @@
     <div class="row"> 
         <div class="col-sm-8"></div>
         <div class="col-sm-2">
-            <button type="button" class="btn btn-info"><a href="#">Edit Players</a></button>
+            <button type="button" class="btn btn-info"><a href="/basketball/player/management/">Edit Players</a></button>
     </div>
     </div>
    <div class="container">

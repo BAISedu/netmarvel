@@ -51,8 +51,16 @@ Route::get('/basketball/player', function() {
     return view('basketball-player');
 });
 
-Route::get('/basketball/player/managment', function() {
+Route::get('/basketball/player/management', function() {
     return view('basketball-player-managment');
+});
+
+Route::get('/basketball/event/management', function() {
+    return view('basketball-event-management');
+});
+
+Route::get('/basketball/event/create', function() {
+    return view('basketball-event-create');
 });
 
 Route::get('/soccer/', function() {
@@ -85,6 +93,14 @@ Route::get('/soccer/playermanagement/BAISgirls/', function() {
 
 Route::get('/soccer/schedule/', function() {
     return view('soccer-schedule');
+});
+
+Route::match(['get', 'post'], '/soccer/previousIISSACs/', function() {
+    return view('soccer-previous-IISSACs');
+});
+
+Route::get('/soccer/previousIISSACs/year/', function() {
+    return view('soccer-previous-IISSACs-year');
 });
 
 Route::get('/badminton/', function () {
