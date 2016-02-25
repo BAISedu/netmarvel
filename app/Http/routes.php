@@ -47,6 +47,14 @@ Route::get('/basketball/player/management', function() {
     return view('basketball-player-managment');
 });
 
+Route::get('/basketball/event/management', function() {
+    return view('basketball-event-management');
+});
+
+Route::get('/basketball/event/create', function() {
+    return view('basketball-event-create');
+});
+
 Route::get('/soccer/', function() {
     return view('soccer-home');
 });
