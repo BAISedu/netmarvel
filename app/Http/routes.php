@@ -31,6 +31,14 @@ Route::get('/bob/bracket/', function() {
     return view('bob-bracket');
 }); 
 
+Route::get('/bob/playermanagement/', function() {
+    return view('bob-playermanagement');
+}); 
+
+Route::get('/bob/create-participant/', function() {
+    return view('bob-create-participant');
+}); 
+
 Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
 });
