@@ -79,8 +79,12 @@ Route::get('/soccer/schedule/', function() {
     return view('soccer-schedule');
 });
 
-Route::get('/soccer/previousIISSACs/', function() {
+Route::match(['get', 'post'], '/soccer/previousIISSACs/', function() {
     return view('soccer-previous-IISSACs');
+});
+
+Route::get('/soccer/previousIISSACs/year/', function() {
+    return view('soccer-previous-IISSACs-year');
 });
 
 Route::get('/badminton/', function () {
