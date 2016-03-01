@@ -95,10 +95,17 @@ Route::get('/soccer/schedule/', function() {
     return view('soccer-schedule');
 });
 
+Route::get('/soccer/statistics/', function() {
+    return view('soccer-statistics');
+});
+
 Route::match(['get', 'post'], '/soccer/previousIISSACs/', function() {
     return view('soccer-previous-IISSACs');
 });
 
+Route::get('/soccer/previousIISSACs/year/', function() {
+    return view('soccer-previous-IISSACs-year');
+});
 Route::get('/soccer/previousIISSACs/year/', function() {
     return view('soccer-previous-IISSACs-year');
 });
