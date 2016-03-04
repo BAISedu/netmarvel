@@ -74,7 +74,17 @@
                 <h4>Team 2</h4>
                 </div>
             </div>
-        <p class="text-center">0:00</p>
+            <div class="row">
+                <div class="col-xs-4 text-left">
+                <p style="font-size:140%;color:blue;">0</p>
+                </div>
+                <div class="col-xs-4 text-center">
+                <p style="font-size:130%;">00:00</p>        
+                </div>
+                <div class="col-xs-4 text-right">
+                <p style="font-size:140%;color:red;">0</p>
+                </div>
+            </div>
         </li>
 
         <li class="list-group-item">

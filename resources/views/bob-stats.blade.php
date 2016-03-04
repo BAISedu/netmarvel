@@ -9,58 +9,58 @@
       <tr>
         <th>Name</th>
         <th>Team</th>
-        <th>Score</th>
-        <th>Position</th>
+        <th>Points recieved total</th>
+        <th>Points from steals</th>
         <th>Games Played</th>
       </tr>
       </thead>
       <tr>
-          <td>Name 1</td>
-          <td>Team 1</td>        
-          <td>Score 1</td>
-          <td>Position 1</td>
-          <td>Games Played</td>
+        <td>Name 1</td>
+        <td>Team 1</td>        
+        <td>Score 1</td>
+        <td>Steal points</td>
+        <td>Games Played</td>
      </tr>
      <tr>
-          <td>Name 2</td>
-          <td>Team 2</td>      
-          <td>Score 2</td>
-          <td>Position 2</td>
-          <td>Games Played</td>
+        <td>Name 2</td>
+        <td>Team 2</td>      
+        <td>Score 2</td>
+        <td>Steal points</td>
+        <td>Games Played</td>
      </tr>
      <tr>
-          <td>Name 3</td>
-          <td>Team 3</td>      
-          <td>Score 3</td>
-          <td>Position 3</td>
-          <td>Games Played</td>
+        <td>Name 3</td>
+        <td>Team 3</td>      
+        <td>Score 3</td>
+        <td>Steal points</td>
+        <td>Games Played</td>
      </tr>
      <tr>
         <td>Name 4</td>
         <td>Team 4</td>
         <td>Score 4</td>
-        <td>Position 4</td>
+        <td>Steal points</td>
         <td>Games Played</td>
      </tr>
      <tr>
         <td>Name 5</td>
         <td>Team 5</td>
         <td>Score 5</td>
-        <td>Position 5</td>
+        <td>Steal points</td>
         <td>Games Played</td>
      </tr>
      <tr>
         <td>Name 6</td>
         <td>Team 6</td>
         <td>Score 6</td>
-        <td>Position 6</td>
+        <td>Steal points</td>
         <td>Games Played</td>
      </tr>
      <tr>
         <td>Name 7</td>
         <td>Team 7</td>
         <td>Score 7</td>
-        <td>Position 7</td>
+        <td>Steal points</td>
         <td>Games Played</td>
      </tr>
 
