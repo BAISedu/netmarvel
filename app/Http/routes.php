@@ -47,6 +47,10 @@ Route::get('/basketball/schedule', function() {
     return view('basketball-schedule');
 });
 
+Route::get('/basketball/schedule/stats', function() {
+    return view('basketball-schedule-stats');
+});
+
 Route::get('/basketball/player', function() {
     return view('basketball-player');
 });
