@@ -9,6 +9,9 @@
         </div>
         <ul class="nav navbar-nav nav-justified nav-tabs">
             <li class="dropdown">
+                <a class="dropdown-toggle" href="/soccer/homepage/">Home</a>
+            </li>
+            <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Player Management
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -54,7 +57,7 @@
                 <a class="dropdown-toggle" href="/soccer/schedule/">Schedule</a>
             </li>
             <li class="dropdown">
-                <a class="dropdown-toggle" href="#">Statistics</a>
+                <a class="dropdown-toggle" href="/soccer/statistics/">Statistics</a>
             </li>
             <li class="dropdown">
                 <a href="/soccer/previousIISSACs/year/">Previous IISSACs</a>

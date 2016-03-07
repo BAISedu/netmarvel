@@ -43,8 +43,15 @@ Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
 });
 
+Route::get('/basketball/login', function() {
+    return view('basketball-login');
+});
 Route::get('/basketball/schedule', function() {
     return view('basketball-schedule');
+});
+
+Route::get('/basketball/schedule/stats', function() {
+    return view('basketball-schedule-stats');
 });
 
 Route::get('/basketball/player', function() {
@@ -95,10 +102,17 @@ Route::get('/soccer/schedule/', function() {
     return view('soccer-schedule');
 });
 
+Route::get('/soccer/statistics/', function() {
+    return view('soccer-statistics');
+});
+
 Route::match(['get', 'post'], '/soccer/previousIISSACs/', function() {
     return view('soccer-previous-IISSACs');
 });
 
+Route::get('/soccer/previousIISSACs/year/', function() {
+    return view('soccer-previous-IISSACs-year');
+});
 Route::get('/soccer/previousIISSACs/year/', function() {
     return view('soccer-previous-IISSACs-year');
 });
@@ -169,4 +183,10 @@ Route::get('/cross-country/enter-data/', function () {
 
 Route::group(['middleware' => ['web']], function () {
     //
+});
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
 });
