@@ -43,6 +43,9 @@ Route::get('/basketball/', function() {
     return view('basketball-home', ['year' => date('Y')]);
 });
 
+Route::get('/basketball/login', function() {
+    return view('basketball-login');
+});
 Route::get('/basketball/schedule', function() {
     return view('basketball-schedule');
 });
@@ -180,4 +183,10 @@ Route::get('/cross-country/enter-data/', function () {
 
 Route::group(['middleware' => ['web']], function () {
     //
+});
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
 });
