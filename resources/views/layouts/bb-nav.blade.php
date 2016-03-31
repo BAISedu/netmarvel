@@ -16,7 +16,6 @@
                     <ul class="dropdown-menu">
                         <li><a href="/basketball/schedule/"><button type="button" class="btn btn-default">Schedule</button></a></li>
                         <li><a href="/basketball/player/"><button type="button" class="btn btn-default">Players</button></a></li>
-                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -25,7 +24,6 @@
                     <ul class="dropdown-menu">
                         <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
-                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                    </ul>
                 </li>
                 <li class="dropdown">
@@ -34,7 +32,6 @@
                     <ul class="dropdown-menu">
                         <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
-                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -43,7 +40,6 @@
                     <ul class="dropdown-menu">
                         <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
-                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -52,7 +48,6 @@
                     <ul class="dropdown-menu">
                         <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
-                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
 
@@ -62,7 +57,6 @@
                     <ul class="dropdown-menu">
                         <li><a href="#"></a><button type="button" class="btn btn-default">Schedule</button></li>
                         <li><a href="#"></a><button type="button" class="btn btn-default">Players</button></li>
-                        <li><a href="#"></a><button type="button" class="btn btn-default">History</button></li>
                     </ul>
                 </li>
             </ul>

@@ -4,7 +4,7 @@
 @include('layouts.soccer-nav')
 <h3 class="text-center"><strong>$year IISSAC</strong></h3>
 <div class="row">
-    <div class="col-md-6 panel panel-default">
+    <div class="col-md-9 panel panel-default">
         <h3><strong>Scores</strong></h3>
         <table class="table">
             <tr>
@@ -21,66 +21,50 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2.5">
-                    HOME  
+                <td>
+                    AAAA
                 </td>
-                <td colspan="2.5" class="text-right">
-                    GUEST
+                <td>
+                    34
                 </td>
-                </td>
-                <td colspan="2.5">
-                    HOME  
-                </td>
-                </td>
-                <td colspan="2.5" class="text-right">
-                    GUEST  
-                </td>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="1">
-                    $school1boy
-                </td>
-                <td colspan="1">
-                    $school1boyscore
-                </td>
-                <td colspan="1">
+                <td>
                     vs.
                 </td>
-                <td colspan="1">
-                    $school2boyscore
+                <td>
+                    ##
                 </td>
-                <td colspan="1">
-                    $school2boy
+                <td>
+                    AAAA
                 </td>
-                <td colspan="1">
-                    $school1girl
+                <td>
+                    AAAA
                 </td>
-                <td colspan="1">
-                    $school1girlscore
+                <td>
+                    ##
                 </td>
-                <td colspan="1">
+                <td>
                     vs.
                 </td>
-                <td colspan="1">
-                    $school2girlscore
+                <td>
+                    ##
                 </td>
-                <td colspan="1">
-                    $school2girl
+                <td>
+                    AAAA
                 </td>
             </tr>
             <tr>
                 <td colspan="10" class="text-center">
                     <strong>SATURDAY, OCTOBER $date</strong>
                 </td>
-            </tr><tr>
+            </tr>
+            <tr>
                 <td colspan="10" class="text-center">
                     <strong>SUNDAY, OCTOBER $date</strong>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="col-md-6 panel panel-default">
+    <div class="col-md-3 panel panel-default">
         <h3><strong>MVP</strong></h3>
         <strong>BAIS</strong>
         <ul>
