@@ -6,7 +6,10 @@
         @include('layouts.bb-nav')
     </div>
     <div class="row"> <!-- button for editing and creating event -->
-        <div class="col-sm-8"></div>
+        <div class="col-sm-2">
+            <button type="button" class="btn btn-info"><a href="/basketball/login">Login</a></button>
+        </div>
+        <div class="col-sm-6"></div>
         <div class="col-sm-2">
             <button type="button" class="btn btn-info"><a href="/basketball/event/create"> New Event</a></button>
         </div> 
