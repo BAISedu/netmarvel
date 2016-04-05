@@ -9,6 +9,7 @@ class user_login extends Model
     //
     protected $table = 'user_login';
 
-    public function user()
+    public function user() {
         return $this->belongsTo('app/user');
+    }
 }
