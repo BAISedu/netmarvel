@@ -9,9 +9,10 @@ class overall_score extends Model
     protected $table = 'school';
 
     public function xc_event_data() {
-        return $this->belongsTo('app/overall_score');
+        return $this->belongsTo('app\xc_event_data');
     }
-    public function venue() {
-        return $this->belongsTo('app/overall_score');
+
+    public function participating_school () {
+        return $this->belongsTo('app\participating_school');
     }
 }
