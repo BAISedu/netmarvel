@@ -10,9 +10,9 @@ class badminton_team_user_seed extends Model
     protected $table = 'badminton_team_user_seed';
 
     public function team() {
-        return $this->belongsTo('app/team');
+        return $this->belongsTo('app\team');
     }
     public function user() {
-        return $this->belongsTo('app/user');
+        return $this->belongsTo('app\user');
     }
 }

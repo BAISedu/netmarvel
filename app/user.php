@@ -10,7 +10,7 @@ class user extends Model
     protected $table = 'user';
 
     public function usertype() {
-        return $this->belongsTo('app\usertype');
+        return $this->belongsToMany('app\usertype');
     }
     public function bb_user_stat() {
         return $this->hasMany('app\bb_user_stat');
