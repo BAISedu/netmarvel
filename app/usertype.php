@@ -10,6 +10,6 @@ class usertype extends Model
     protected $table = 'usertype';
 
     public function user() {
-        return $this->hasMany('app/user');
+        return $this->belongsToMany('app/user');
     }
 }
