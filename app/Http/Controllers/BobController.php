@@ -15,4 +15,7 @@ class BobController extends Controller
         // send the information to the view
         return view('bob-home');
     }
+    public function teams() {
+        return view('bob-teams');
+    }
 }
