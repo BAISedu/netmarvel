@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/bob/', function() {
-    return view('bob-home');
-}); 
+Route::get('/bob/', 'BobController@index');
 
 Route::get('/bob/teams/', function() {
     return view('bob-teams');
