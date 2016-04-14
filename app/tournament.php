@@ -10,6 +10,6 @@ class tournament extends Model
     protected $table = 'tournament';
 
     public function user() {
-        return $this->hasmany('app/tournament_sport_venue');
+        return $this->hasmany('app\tournament_sport_venue');
     }
 }

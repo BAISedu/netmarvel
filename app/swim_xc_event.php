@@ -16,4 +16,7 @@ class swim_xc_event extends Model
     public function tournament_sport_venue() {
         return $this->belongsTo('app\tournament_sport_venue');
     }
+    public function xc_event_data() {
+        return $this->hasMany('app\xc_event_data');_
+    }
 }

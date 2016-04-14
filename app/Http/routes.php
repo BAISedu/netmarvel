@@ -15,13 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/bob/', function() {
-    return view('bob-home');
-}); 
+Route::get('/bob/', 'BobController@index');
 
-Route::get('/bob/teams/', function() {
-    return view('bob-teams');
-}); 
+Route::get('/bob/teams/', 'BobController@teams');
 
 Route::get('/bob/stats/', function() {
     return view('bob-stats');
