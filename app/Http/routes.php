@@ -98,7 +98,7 @@ Route::get('/soccer/previousIISSACs/year/', function() {
     return view('soccer-previous-IISSACs-year');
 });
 
-Route::get('/badminton/', function () {
+Route::get('/badminton/', 'BadmintonController@index');
     return view('badminton-home');
 });
 
@@ -126,30 +126,17 @@ Route::get('/swim/add-event/', function () {
     return view('swim-add-event');
 });
 
-Route::get('/cross-country/', function () {
-    return view('crosscountry-home');
-});
+Route::get('/cross-country/', 'XCController@index');
 
-Route::get('/cross-country/stats/', function () {
-    return view('crosscountry-stats');
-});
+Route::get('/cross-country/stats/', 'XCController@stats');
 
-Route::get('/cross-country/player-management/', function () {
-    return view('crosscountry-player-management');
-});
-
-Route::get('/cross-country/add-event/', function () {
-    return view('crosscountry-add-event');
-});
-
-Route::get('/cross-country/select-event/', function () {
-    return view('crosscountry-select-event');
-});
-
-
-Route::get('/cross-country/enter-data/', function () {
-    return view('crosscountry-enter-data');
-});
+Route::get('/cross-country/player-management/', 'XCController@player'); 
+   
+Route::get('/cross-country/add-event/', 'XCController@addEvent'); 
+  
+Route::get('/cross-country/select-event/', 'XCController@selectEvent');
+ 
+Route::get('/cross-country/enter-data/', 'XCController@enterData');
 
 /*
 |--------------------------------------------------------------------------
