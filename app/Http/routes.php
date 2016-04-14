@@ -66,20 +66,14 @@ Route::get('/basketball/event/create', function() {
     return view('basketball-event-create');
 });
 
-Route::get('/soccer/', function() {
-    return view('soccer-home');
-});
+Route::get('/soccer/', 'SoccerController@index');
 
-Route::get('/soccer/login/', function() {
-    return view('soccer-login');
-});
+Route::get('/soccer/login/', 'SoccerController@login');
 
-Route::get('/soccer/homepage/', function() {
-    return view('soccer-homepage');
-});
+Route::get('/soccer/homepage/', 'SoccerController@homepage');
 
-Route::get('/soccer/playermanagement/BAISboys/', function() {
-    return view('soccer-playermanagement-BAISboys');
+Route::get('/soccer/playermanagement/BAISboys/', function () {
+    return view('soccer-playermangement-BAISboys');
 });
 
 Route::get('/soccer/playermanagement/BAISboys/AddPlayers/', function() {
@@ -94,13 +88,9 @@ Route::get('/soccer/playermanagement/BAISgirls/', function() {
     return view('soccer-playermanagement-BAISgirls');
 });
 
-Route::get('/soccer/schedule/', function() {
-    return view('soccer-schedule');
-});
+Route::get('/soccer/schedule/', 'SoccerController@schedule');
 
-Route::get('/soccer/statistics/', function() {
-    return view('soccer-statistics');
-});
+Route::get('/soccer/statistics/', 'SoccerController@statistics');
 
 Route::match(['get', 'post'], '/soccer/previousIISSACs/', function() {
     return view('soccer-previous-IISSACs');
