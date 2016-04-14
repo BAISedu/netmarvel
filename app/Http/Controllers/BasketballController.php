@@ -21,7 +21,7 @@ class BasketballController extends Controller
          return view('basketball-schedule');
     }
 
-    public function (){
+    public function scheduleStats(){
          return view('basketball-schedule-stats');
     }
     

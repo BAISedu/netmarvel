@@ -41,13 +41,13 @@ Route::get('/basketball/login','BasketballController@login');
 
 Route::get('/basketball/schedule', 'BasketballController@schedule'); 
 
-Route::get('/basketball/schedule/stats', 'BasketballController@stat'); 
+Route::get('/basketball/schedule/stats', 'BasketballController@scheduleStats'); 
 
 Route::get('/basketball/player', 'BasketballController@player');
 
 Route::get('/basketball/player/management', 'BasketballController@playerManagement');
 
-Route::get('/basketball/event/management', 'BasketballController@eventManagement')
+Route::get('/basketball/event/management', 'BasketballController@eventManagement');
 
 Route::get('/basketball/event/create', 'BasketballController@create'); 
 
