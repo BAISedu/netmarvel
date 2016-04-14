@@ -117,7 +117,7 @@ Route::get('/soccer/previousIISSACs/year/', function() {
     return view('soccer-previous-IISSACs-year');
 });
 
-Route::get('/badminton/', function () {
+Route::get('/badminton/', 'BadmintonController@index');
     return view('badminton-home');
 });
 
