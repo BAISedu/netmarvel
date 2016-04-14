@@ -35,36 +35,21 @@ Route::get('/bob/create-participant/', function() {
     return view('bob-create-participant');
 }); 
 
-Route::get('/basketball/', function() {
-    return view('basketball-home', ['year' => date('Y')]);
-});
+Route::get('/basketball/', 'BasketballController@index');
 
-Route::get('/basketball/login', function() {
-    return view('basketball-login');
-});
-Route::get('/basketball/schedule', function() {
-    return view('basketball-schedule');
-});
+Route::get('/basketball/login','BasketballController@login'); 
 
-Route::get('/basketball/schedule/stats', function() {
-    return view('basketball-schedule-stats');
-});
+Route::get('/basketball/schedule', 'BasketballController@schedule'); 
 
-Route::get('/basketball/player', function() {
-    return view('basketball-player');
-});
+Route::get('/basketball/schedule/stats', 'BasketballController@stat'); 
 
-Route::get('/basketball/player/management', function() {
-    return view('basketball-player-managment');
-});
+Route::get('/basketball/player', 'BasketballController@player');
 
-Route::get('/basketball/event/management', function() {
-    return view('basketball-event-management');
-});
+Route::get('/basketball/player/management', 'BasketballController@playerManagement');
 
-Route::get('/basketball/event/create', function() {
-    return view('basketball-event-create');
-});
+Route::get('/basketball/event/management', 'BasketballController@eventManagement')
+
+Route::get('/basketball/event/create', 'BasketballController@create'); 
 
 Route::get('/soccer/', 'SoccerController@index');
 
@@ -103,7 +88,7 @@ Route::get('/soccer/previousIISSACs/year/', function() {
     return view('soccer-previous-IISSACs-year');
 });
 
-Route::get('/badminton/', function () {
+Route::get('/badminton/', 'BadmintonController@index');
     return view('badminton-home');
 });
 
@@ -131,30 +116,17 @@ Route::get('/swim/add-event/', function () {
     return view('swim-add-event');
 });
 
-Route::get('/cross-country/', function () {
-    return view('crosscountry-home');
-});
+Route::get('/cross-country/', 'XCController@index');
 
-Route::get('/cross-country/stats/', function () {
-    return view('crosscountry-stats');
-});
+Route::get('/cross-country/stats/', 'XCController@stats');
 
-Route::get('/cross-country/player-management/', function () {
-    return view('crosscountry-player-management');
-});
-
-Route::get('/cross-country/add-event/', function () {
-    return view('crosscountry-add-event');
-});
-
-Route::get('/cross-country/select-event/', function () {
-    return view('crosscountry-select-event');
-});
-
-
-Route::get('/cross-country/enter-data/', function () {
-    return view('crosscountry-enter-data');
-});
+Route::get('/cross-country/player-management/', 'XCController@player'); 
+   
+Route::get('/cross-country/add-event/', 'XCController@addEvent'); 
+  
+Route::get('/cross-country/select-event/', 'XCController@selectEvent');
+ 
+Route::get('/cross-country/enter-data/', 'XCController@enterData');
 
 /*
 |--------------------------------------------------------------------------
