@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 class SoccerController extends Controller
 {
     public function index() {
-        return view('soccer');
+        return view('soccer-home');
     }
     public function login() {
         return view('soccer-login');
