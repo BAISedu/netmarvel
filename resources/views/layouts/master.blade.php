@@ -33,10 +33,6 @@
             </div>
         </nav>
         <div class="container-fluid">
-            <div class="jumbotron">
-                <h1>IISSAC</h1>
-                <p>One application to rule them all</p>
-            </div>
             <div class="container">
                 @yield('content')
             </div>
