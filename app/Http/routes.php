@@ -19,21 +19,13 @@ Route::get('/bob/', 'BobController@index');
 
 Route::get('/bob/teams/', 'BobController@teams');
 
-Route::get('/bob/stats/', function() {
-    return view('bob-stats');
-}); 
+Route::get('/bob/stats/', 'BobController@stats'); 
 
-Route::get('/bob/bracket/', function() {
-    return view('bob-bracket');
-}); 
+Route::get('/bob/bracket/', 'BobController@bracket'); 
 
-Route::get('/bob/playermanagement/', function() {
-    return view('bob-playermanagement');
-}); 
+Route::get('/bob/playermanagement/', 'BobController@playerManagement'); 
 
-Route::get('/bob/create-participant/', function() {
-    return view('bob-create-participant');
-}); 
+Route::get('/bob/create-participant/', 'BobController@createPlayer');
 
 Route::get('/basketball/', 'BasketballController@index');
 
