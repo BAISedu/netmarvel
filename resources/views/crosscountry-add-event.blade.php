@@ -5,6 +5,7 @@
     <div class="title"><h1>Cross Country - Add Event</h1></div>
     @include('layouts/cross-country-nav')
     <div class="container">
+        {!! Form::open() !!}
         <div class="form-group">
             <label for="Eventname">Event Name</label>
             <input type="email" class="form-control" id="Eventname" placeholder="Hong Gil dong">
@@ -30,8 +31,7 @@
         </div>
          <a href="/cross-country/add-event/"><button type="button" class="btn btn-primary btn-md">Save</button></a>
        
-
-    </div>
+        {!! Form::close() !!}
     </div>
 </div>
 

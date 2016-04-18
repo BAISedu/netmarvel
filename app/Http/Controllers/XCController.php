@@ -30,3 +30,4 @@ class XCController extends Controller
     public function enterData() {
         return view('crosscountry-enter-data');
     }
+}
