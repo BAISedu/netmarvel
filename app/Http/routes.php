@@ -129,13 +129,12 @@ Route::get('/badminton/create-participant/', function () {
     return view('badminton-create-participant');
 });
 
-Route::get('/swim/', function () {
-    return view('swim-home');
-});
+Route::get('/swim/', 'SwimController@home');
 
 Route::get('/swim/event-detail/', function () {
     return view('swim-event-detail');
 });
+Route::get('/swim/event-detail/', 'SwimController@eventDetail');
 
 Route::get('/swim/add-program/', function () {
     return view('swim-add-program');
