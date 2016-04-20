@@ -6,15 +6,8 @@
     @include('layouts/badminton-nav')
     <div class="container">
         <h1>Create Participant</h1>
-        <form id="create-participant">
-            <select id="schools" class="form-control">
-                <option>BAIS</option>
-                <option>MCS</option>
-                <option>SIS</option>
-                <option>WIS</option>
-                <option>BIS</option>
-                <option>BALI</option>
-            </select>
+        {!! Form::open(array('id' => 'create-participant')) !!}
+            {!! Form::select('schools', array('bais' => 'BAIS', 'mcs' => 'MCS', 'sis' => 'SIS', 'wis' => 'WIS', 'bis' => 'BIS', 'bali' => 'BALI'), array('class' => 'form-control')) !!}
             <div class="form-group">
                 <label for="firstName">Name</label>
                 <div class="form-inline row">
@@ -56,7 +49,7 @@
             <div>
                 <input class="btn btn-default" type="submit" value="Submit">
             </div>
-        </form>
+    {!! Form::close() !!}
     </div>
 </div>
 @endsection
