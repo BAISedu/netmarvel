@@ -3,7 +3,7 @@
 @section('content')
 @include('layouts.soccer-nav')
 <h3> BAIS - Boy's Team </h3>
-<form class="">
+{!! Form::open()!!}
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -94,5 +94,5 @@
 <div class="text-right">
     <a href="/soccer/playermanagement/BAISboys/"><button type="button" class="btn btn-primary btn-md">Add a Player</button></a>
 </div>
-</form>
+{!!Form::close() !!}
 @endsection

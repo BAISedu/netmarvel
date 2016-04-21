@@ -3,18 +3,17 @@
 @section('content')
         <div class="content">
             <h1 class="text-center">Welcome to <br/><strong>Soccer <br/>IISSAC</strong></h1>
-            <body>
-                <form class="login form-horizontal" role="form">
+                {!! Form::open(array('class' => 'login form-horizontal', 'role'=> 'form')) !!}
                     <div class="form-group">
-                        <label class="control-label col-sm-2" for="username">User ID:</label>
+                        {!! Form::label('username', 'User ID:', array ('class' => 'control-label col-sm-2')) !!}
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="username" placeholder="Enter your user ID here." />
+                            {!! Form::text('username', 'Enter your user ID here.', array('class' => 'form-control')) !!}
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-sm-2" for="PASSWORD">PASSWORD:</label>
+                        {!! Form::label('PASSWORD', 'PASSWORD:', array('class' => 'control-label col-sm-2')) !!}
                         <div class="col-sm-10">
-                            <input type="password" class="form-control" id="PASSWORD" placeholder="Enter your password here." />
+                            {!! Form::text('PASSWORD', 'Enter your password here.', array ('class' => 'form-control')) !!}
                         </div>
                     </div>
                     <div class="form-group">
@@ -22,7 +21,6 @@
                             <a href="/soccer/homepage/"><button type="button" class="btn btn-primary btn-md">Submit</button></a>
                         </div>
                     </div>    
-                </form>
-            </body>
+                {!!Form::close() !!}
         </div>
 @endsection

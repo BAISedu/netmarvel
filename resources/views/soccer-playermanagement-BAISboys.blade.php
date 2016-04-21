@@ -3,7 +3,7 @@
 @section('content')
 @include('layouts.soccer-nav')
 <h3> BAIS - Boy's Team </h3>
-<form class="form-inline">
+{!! Form::open(array('id' => 'form-inline')) !!}
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -31,10 +31,10 @@
         </tr>
     </tbody>
 </table>
-<!-- CHANGE THE SOCCER/HOMEPAGE ROUTE -->
 <div class="text-right">
     <a href="/soccer/playermanagement/BAISboys/AddPlayers/"><button type="button" class="btn btn-primary btn-md">Add a Player</button></a>
     <a href="/soccer/playermanagement/BAISboys/Save/"><button type="button" class="btn btn-primary btn-md">Submit</button></a>
 </div>
+{!! Form:close() !!}
 </form>
 @endsection
