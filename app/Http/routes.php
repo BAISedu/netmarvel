@@ -82,9 +82,9 @@ Route::get('/soccer/previousIISSACs/year/', function() {
 
 Route::get('/badminton/', 'BadmintonController@index');
 
-Route::get('/badminton/player-management/', 'BadmninController@playerManagement');
+Route::get('/badminton/player-management/', 'BadmintonController@playerManagement');
 
-Route::get('/badminton/create-participant/', 'BadmninController@createParticipant');
+Route::get('/badminton/create-participant/', 'BadmintonController@createParticipant');
 
 Route::get('/swim/', 'SwimController@home');
 
