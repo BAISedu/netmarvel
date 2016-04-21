@@ -13,26 +13,26 @@ class BobController extends Controller
     public function index() {
         // Look up information from database using the model
         // send the information to the view
-        return view('bob-home')
+        return view('bob-home');
     }
     public function teams() {
-        return view('bob-teams')
+        return view('bob-teams');
     }
 
     public function stats() {
-        return view('bob-stats')
+        return view('bob-stats');
     }
 
     public function bracket() {
-        return view('bob-bracket')
+        return view('bob-bracket');
     }
     
     public function playerManagement () {
-        return view('bob-playermanagement')
+        return view('bob-playermanagement');
     }
 
     public function createParticipant () {
-        return view('bob-create-participant')
+        return view('bob-create-participant');
     }
 
 
