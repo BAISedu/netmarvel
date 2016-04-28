@@ -6,7 +6,7 @@
     @include('layouts/bb-nav')
     <div class="container">
         <h1>Create Participant</h1>
-        <form id="create-participant">
+{!! Form::open(array('id' => 'create-participant')) !!}
             <select id="schools" class="form-control">
                 <option>BAIS</option>
                 <option>MCS</option>
@@ -70,7 +70,7 @@
             <div>
                 <input class="btn btn-default" type="submit" value="Submit">
             </div>
-        </form>
+{!! Form:close() !!}
     </div>
 </div>
 @endsection
