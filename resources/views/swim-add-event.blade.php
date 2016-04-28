@@ -6,24 +6,24 @@
     <h2>Event &raquo; Add</h2>
     <div class="container-fluid">
         <div class="row">
-            <form>
+            {!! Form::open() !!}
               <fieldset class="form-group">
-                  <label for="Event-name">Event Name</label>
-                  <input type="text" class="form-control" id="program-name" placeholder="Enter Event Name">
+                  {!! Form::label('program-name', 'Event Name') !!}
+                  {!! Form::text('program-name', null, array('placeholder' => 'Enter Event Name', 'class' => 'form-control')) !!}
               </fieldset>
               <fieldset class="form-group">
-                  <label for="venue">Venue</label>
-                  <input type="text" class="form-control" id="venue" placeholder="Enter Venue">
+                  {!! Form::label('venue', 'Venue') !!}
+                  {!! Form::text('venue', null, array('placeholder' => 'Location of the event', 'class' => 'form-control')) !!}
               </fieldset>
               <fieldset class="form-group">
-                  <label for="end-date">Start Date</label>
-                  <input type="date" class="form-control" id="end-datee" placeholder="MM/DD/YYYY">
+                  {!! Form::label('start-date', 'Start Date') !!}
+                  {!! Form::date('start-date', null, array('class'=>'form-control')) !!}
               </fieldset>
               <fieldset class="form-group">
-                  <label for="end-date">End Date</label>
-                  <input type="date" class="form-control" id="end-date" placeholder="MM/DD/YYYY">
+                  {!! Form::label('end-date', 'End Date') !!}
+                  {!! Form::date('end-date', null, array('class'=>'form-control')) !!}
               </fieldset>
-            </form>
+            {!! Form::close() !!}
 
         </div>
         <div class="row">
