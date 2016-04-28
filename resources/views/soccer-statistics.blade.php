@@ -3,7 +3,7 @@
 @section('content')
 @include('layouts.soccer-nav')
 <h3>$school1 - Girls/Boys Team ($schoo1 vs. $school2)</h3>
-<form class="form form-horizontal">
+{!! Form::open(array('id' => 'form form-horizontal')) !!}
 <table class="table table-condensed table-responsive">
     <thead>
         <tr>
@@ -51,5 +51,5 @@
         </tr>
     </tbody>
 </table>
-</form>
+{!! Form:close() !!}
 @endsection
