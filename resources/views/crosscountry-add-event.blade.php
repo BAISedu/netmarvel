@@ -7,12 +7,12 @@
     <div class="container">
         {!! Form::open() !!}
         <div class="form-group">
-            <label for="Eventname">Event Name</label>
-            <input type="email" class="form-control" id="Eventname" placeholder="Hong Gil dong">
+            {!! Form::label('event-name', 'Event Name:') !!}
+            {!! Form::text('event-name', 'IISSAC Badminton...', array('class'=>'form-control')) !!}
         </div>
         <div class="form-group">
-            <label for="dob">Date</label>
-            <input type="date" class="form-control" id="dob" placeholder="Last Name">
+            {!! Form::label('dob', 'Date of Birth') !!}
+            {!! Form::date('dob', null, array('class'=>'form-control')) !!}
         </div>
         <div class="form-group">
             <label for="grade">Category</label>
