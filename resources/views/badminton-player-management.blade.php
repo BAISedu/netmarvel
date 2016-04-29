@@ -6,7 +6,9 @@
     @include('layouts/badminton-nav')
     <div class="container">
         <h1>Player Management</h1>
+        {!! Form::open(array('id' => 'player-management')) !!}
         <form class="school-year">
+        {!! Form::select('schools', array(null => '-- select --', 'bais' => 'BAIS', 'mcs' => 'MCS', 'sis' => 'SIS', 'wis' => 'WIS', 'bis' => 'BIS', 'bali' => 'BALI'), null, array('class' => 'form-control')) !!}
             <select id="school-year" class="form-control">
                 <option>2013</option>
                 <option>2014</option>
