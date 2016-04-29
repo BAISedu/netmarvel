@@ -25,7 +25,7 @@ Route::get('/bob/bracket/', 'BobController@bracket');
 
 Route::get('/bob/playermanagement/', 'BobController@playerManagement'); 
 
-Route::get('/bob/create-participant/', 'BobController@createPlayer');
+Route::get('/bob/create-participant/', 'BobController@createParticipant');
 
 Route::get('/basketball/', 'BasketballController@index');
 

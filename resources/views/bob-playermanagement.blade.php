@@ -23,13 +23,9 @@
 <div class="content">
     <div class="container">
         <h1>Player Management</h1>
-        <form class="school-year">
-            <select id="school-year" class="form-control">
-                <option>2013</option>
-                <option>2014</option>
-                <option>2015</option>
-                <option>2016</option>
-            </select>
+        {!! Form::open(array('class' => 'school-year')) !!}
+        {!! Form::selectRange('school-year', 2012, 2015, null, array('class' => 'form-control')) !!}
+        {!! Form::close() !!}
         <table class="table table-bordered">
             <thead>
                 <tr>
