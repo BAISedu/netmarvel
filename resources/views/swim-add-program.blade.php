@@ -6,28 +6,25 @@
     <h2>Program Management &raquo; Add</h2>
     <div class="container-fluid">
         <div class="row">
-            <form>
+            {!! Form::open() !!}
               <fieldset class="form-group">
-                  <label for="program-name">Program Name</label>
-                  <input type="text" class="form-control" id="program-name" placeholder="Enter program name">
+                {!! Form::label('program-name', 'Event Name') !!}
+                {!! Form::text('program-name', null, array('placeholder' => 'enter Event Name', 'class', 'form-control')) !!}
               </fieldset>
               <fieldset class="form-group">
-                  <label for="venue">Venue</label>
-                  <input type="text" class="form-control" id="venue" placeholder="Enter Venue">
+                {!! Form::label('venue', 'Venue') !!}
+                {!! Form::text('venue', null, array('placeholder' => 'Location of the event', 'class', 'form-control')) !!}
               </fieldset>
               <fieldset class="form-group">
-                  <label for="end-date">Start Date</label>
-                  <input type="date" class="form-control" id="end-datee" placeholder="MM/DD/YYYY">
+                {!! Form::label('start-date', 'Start Date') !!}
+                {!! Form::date('start-date', null, array('class' => 'form-control')) !!}
               </fieldset>
               <fieldset class="form-group">
-                  <label for="end-date">End Date</label>
-                  <input type="date" class="form-control" id="end-date" placeholder="MM/DD/YYYY">
+                {!! Form::label('end-date', 'End Date') !!}
+                {!! Form::date('end-date', null, array('class' => 'form-control')) !!}
               </fieldset>
-            </form>
-
-        </div>
-        <div class="row">
-            <button class="btn btn-default"><span class="glyphicon glyphicon-floppy-save"></span>&nbsp; Save</button>
+                <button class="btn btn-default"><span class="glyphicon glyphicon-floppy-save"></span>&nbsp; Save</button>
+            {!! Form::close() !!}
         </div>
     </div>
 </div>

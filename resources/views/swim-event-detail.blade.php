@@ -15,7 +15,7 @@
                 <div id="collapse1" class="panel-collapse collapse out">
                     <div class="panel-body">
                         <!-- table content goes in here -->
-                        <form class="">
+                        {!! Form::open() !!}
                         <table class="table">
                             <thead>
                                 <tr>
@@ -38,7 +38,7 @@
                                     <td>Amudhan W. Ramappa</td>
                                     <td>Internatoinal School in India</td>
                                     <td>NT</td>
-                                    <td><input type="time" class="" id="time-1" placeholder="m:s:ms" /></td>
+                                    <td>{!! Form::time('12345', '12:30 AM', array('disabled')) !!}</td>
                                     <td>1</td>
                                 </tr>
                                 <tr>
@@ -47,7 +47,7 @@
                                     <td>Amudhan W. Ramappa</td>
                                     <td>Internatoinal School in India</td>
                                     <td>NT</td>
-                                    <td><input type="time" class="" id="time-2" placeholder="m:s:ms" /></td>
+                                    <td>{!! Form::time('12346', null) !!}</td>
                                     <td>2</td>
                                 </tr>
                                  <tr>
@@ -56,7 +56,7 @@
                                     <td>Amudhan W. Ramappa</td>
                                     <td>Internatoinal School in India</td>
                                     <td>NT</td>
-                                    <td><input type="time" class="" id="time-3" placeholder="m:s:ms" /></td>
+                                    <td>{!! Form::time('12347', null) !!}</td>
                                     <td>3</td>
                                 </tr>
                            </tbody>
