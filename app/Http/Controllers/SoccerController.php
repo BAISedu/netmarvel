@@ -24,4 +24,7 @@ class SoccerController extends Controller
     public function statistics() {
         return view('soccer-statistics');
     }
+    public function previousIISSACs() {
+        return view('soccer-previous-IISSACs');
+    }
 }

@@ -51,5 +51,5 @@
         </tr>
     </tbody>
 </table>
-{!! Form:close() !!}
+{!! Form::close() !!}
 @endsection

@@ -13,7 +13,7 @@ class SwimController extends Controller
      *
      *
      *
-     * @retrun Response
+     * @return Response
      */
     public function home() {
         return view('swim-home');
@@ -21,6 +21,10 @@ class SwimController extends Controller
 
     public function eventDetail() {
         return view('swim-event-detail');
+    }
+
+    public function addEvent() {
+        return view('swim-add-event');
     }
 
 }
